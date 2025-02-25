@@ -70,7 +70,7 @@ gap: 5%;
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
 	.iconesLink{border: 2px #1b357e solid; border-style: double; border-radius: 16px; padding:5px;}
 	#divNav{min-width: 70px; margin:4%}
 	.imagemHeader{min-width: 70px;margin:4%}
@@ -79,6 +79,7 @@ gap: 5%;
 .iconesLink{
 border: 2px none solid;
 border-style: double;
+font-size: 32px;
 }
 .iconesLink:hover{
 	border: solid 2px #1b357e;
