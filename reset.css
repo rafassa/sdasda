@@ -53,58 +53,105 @@ table {
 
 #header{
 display: flex;
-background-color: green;
+background-color: rgb(255, 255, 255);
+margin-bottom: 4%;;
+flex-wrap: wrap;
+align-items: center;
 }
+
+#link{
+display: flex;
+flex: 1;
+justify-content: center;
+gap: 5%;
+
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+	.iconesLink{border: 2px #1b357e solid; border-style: double; border-radius: 16px; padding:5px;}
+	#divNav{min-width: 70px; margin:4%}
+	.imagemHeader{min-width: 70px;margin:4%}
+}
+
+.iconesLink{
+border: 2px none solid;
+border-style: double;
+}
+.iconesLink:hover{
+	border: solid 2px #1b357e;
+	border-style: double;
+	transform: scale(1);
+	border-radius: 16px;
+	padding: 5px;
+}
+
+.imagemHeader{
+	width: 10%;
+}
+
+#divNav{
+	width: 10%;
+}
+
+
 
 
 
 
 #main{
-display: flex;
-
-align-items: center;
-background-color: rgb(255, 9, 9);
-flex: 1;
-
-
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	align-items: center;
+	
 }
+#AjusteMain{
+	float: left;
+	/* width: 50vw; */
+	padding-left: 4%;
 
+	padding-right: 1%;
+	
+}
 #imagemMain{
-display: flex;
-max-height: 700px;
-max-width: 900px;
-margin: 5%;
-margin-bottom: 10%;
+width: 75vw;
 
 }
+
 
 #sectionMain{
-	display: flex;
-	align-items: center;
-}
 	
-#textoLink{
-
+	height: 100%;
+	width: 100%;
 }
 
-#imagemLink{
-	display: flex;
-	flex-direction: column;
+
+#divTexto{
+	margin-top: 13%;
+	
 }
+
+
+
 
 #footer{
 display: flex;
 align-items: center;
 background-color: #1b357e;
 gap: 10px;
-bottom: 0%;
-position: fixed;
 width: 100%;
+
+
+
 }
 
 
 #mensagemRedesSocial{
-	font-size: 1.12vw;
+	
+	font-size: 1vw;
 	padding: 0.7%;
 	align-self: center;
 }
@@ -115,8 +162,6 @@ width: 100%;
 }
 
 #logoIsoladaFord{
-	display: flex;
-	margin-left: auto;
 	margin-right: 2vw;
 }
 
